@@ -1,0 +1,98 @@
+/*! ******************************************************
+*
+*	Theme Name:     DS Theme Child
+*   Author:         Digital Storm
+*   Author URI:     https://www.digitalstorm.co.uk/
+*   Description:    Simple, clear and modern Bootstrap 4-based theme. Perfect base for developing all kinds of responsive sites with Toolsets, including the Layouts plugin (no extra integration needed, you activate Layouts and the drag and drop facilities work out of the box). Uses WordPress theme customizer and supports Font Awesome Icons. Supports WooCommerce integration by styles unification.
+*   Version:        1.1
+*   License:        GNU General Public License v2 or later
+*   License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+*   Template:       ds-theme
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*
+*   COMPLETE THEME UPDATE VERSION: (child version)
+*   06/06/2018 - 1.4.3
+*
+*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/********************* IMPORTANT STYLES *********************/
+section.container-fluid.container-main {margin-top: 88px;}
+html{-webkit-font-smoothing:antialiased;font-smoothing:antialiased;}
+.mobileShow {display:none;visibility:hidden;}
+.homeBanner,.logoBanner,.testimonialBanner {display:none;visibility:hidden;width:100%;}
+.container-fluid {margin-right: auto;margin-left: auto;padding-left: 0px;padding-right: 0px;}
+
+/********************* GENERAL STYLES *********************/
+
+html {font-size: 0.875em;}
+body {font-size:100%;font-family: 'Lato', sans-serif!important;}
+
+a {color:#01273a;}
+a:hover {text-decoration:none; color:inherit;}
+a:link,
+a:visited {text-decoration:none;}
+
+a[target="_blank"]:not(.notarget)::after {content:"";display:none;}
+.no-padding-sides {padding-left:0;padding-right:0;}
+.padding-top-bottom {padding-top:35px;padding-bottom:35px;}
+
+h1, h2, h3, h4, h5, h5 {font-family: 'Playfair Display', serif;color:#01273a;}
+
+h1 {font-size: 4.1em;margin: 0;}
+
+p {font-family: 'Lato', sans-serif!important;}
+
+.btn-primary {background-color:#01273a!important;color: #fff;border: 0px;padding: 14px 24px;font-family: 'Lato', sans-serif;font-size: 12px;font-weight: 400;line-height: 100%;text-transform: uppercase;}
+
+.btn-secondary {background-color:transparent!important;border:1px solid #0095CC;}
+.btn-primary:hover {box-shadow: none;}
+
+.whiteText, .whiteText a, .whiteText h1, .whiteText h2, .whiteText h3, .whiteText h4, .whiteText p {color:#ffffff!important;}
+
+.uppercase {text-transform: uppercase;}
+
+
+
+/****************** CAROUSEL STYLES *******************/
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+    -ms-touch-action: auto;
+        touch-action: auto;
+}
+
+.home-banner .banner-item {
+    height: 580px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-content {
+    max-width: 500px;
+	text-align: center;
+}
+.banner-title {text-transform:uppercase;font-size: 39px;}
+.banner-desc {max-width: 380px;margin: 0 auto; font-size: 14px;color:#999999;margin-top: 30px;margin-bottom: 30px;}
+.owl-dots {
+	position: absolute;
+	margin-top: -45px !important;
+	z-index: 99999;
+	text-align: center;
+	width: 100%;
+	background: transparent;
+	padding:4px 0;
+	line-height:0;
+}
+
